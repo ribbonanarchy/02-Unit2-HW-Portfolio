@@ -35,6 +35,20 @@ nav div ul li {
     display: flex;
 }
 
+.bio-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.bio-container div img {
+    padding: 20px 20px;
+}
+
+.bio-container div p {
+    justify-content: center; 
+    align-self: center;
+}
+
 .list-container {
     padding-top: 12px;
     margin-right: 16px;
