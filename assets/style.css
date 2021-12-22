@@ -1,0 +1,28 @@
+:root {
+    --butter: #fff587;
+    --light-orange: #ff8c64;
+    --light-red: #ff665a;
+    --night-purple: #7D6B7D;
+    --steel: #A3A1A8;
+}
+
+* {
+    background-color: var(--butter);
+    color: var(--light-orange);
+}
+
+.container {
+
+}
+
+#about-me {
+
+}
+
+#my-work {
+
+}
+
+#contact-me {
+
+}
