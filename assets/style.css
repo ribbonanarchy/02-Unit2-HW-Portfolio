@@ -3,26 +3,53 @@
     --light-orange: #ff8c64;
     --light-red: #ff665a;
     --night-purple: #7D6B7D;
+    --sea: #609fda;
     --steel: #A3A1A8;
 }
 
-* {
-    background-color: var(--butter);
-    color: var(--light-orange);
+body {
+    background-color: var(--night-purple);
+    color: var(--steel);
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto Slab', serif;
+}
+
+nav {
+    padding: 16px;
+    background-color: var(--steel);
+    color: var(--night-purple);
+}
+
+nav h1 {
+    display: inline-block;
+    font-size: 48px;
+    color: var(--light-red);
+}
+
+nav div ul li {
+    display: inline-block;
+    margin-left: 16px;
 }
 
 .container {
-
+    display: flex;
 }
 
-#about-me {
-
+.list-container {
+    padding-top: 12px;
+    margin-right: 16px;
+    float: right;
+    font-size: 24px;
 }
 
-#my-work {
-
+#about-me h2 {
+    color: var(--light-orange);
 }
 
-#contact-me {
+#my-work h2 {
+    color: var(--butter);
+}
 
+#contact-me h2 {
+    color: var(--sea);
 }
