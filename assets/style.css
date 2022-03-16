@@ -32,7 +32,7 @@ nav div ul li {
 }
 
 .container {
-    display: flex;
+    display: inline;
 }
 
 .bio-container {
@@ -63,6 +63,15 @@ nav div ul li {
 
 .first-card img{
     width: 1000px;
+}
+
+.card {
+    width: 1000px;
+    display: inline-block;
+}
+
+.card img {
+    width: 800px;
 }
 
 #about-me h2 {
